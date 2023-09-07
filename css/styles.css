@@ -196,7 +196,7 @@ a:visited {
 
 .item-banner {
     background-color: #D01418;
-    background-image: url(/img/banner1.png);
+    background-image: url(../img/banner1.png);
     background-size: cover;
     width: 30%;
     height: 150px;
@@ -211,7 +211,7 @@ a:visited {
 
 
 .item-banner:nth-child(odd) {
-    background-image: url(/img/banner2.png);
+    background-image: url(../img/banner2.png);
 }
 
 .item-banner p {
