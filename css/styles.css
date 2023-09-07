@@ -34,6 +34,12 @@ footer {
     flex-wrap: wrap;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
 .brand {
     /*Flex-box*/
     display: flex;
@@ -66,6 +72,10 @@ a {
 
 a:visited {
     color: var(--light-color);
+}
+
+.fa-bars {
+    display: none;
 }
 
 .top-banner {
@@ -262,6 +272,11 @@ footer .brand {
         display: none;
     }
 
+    .fa-bars {
+        display: block;
+        font-size: 2rem;
+    }
+
     .top-banner {
         padding: 1rem;
         background-position: left center;
@@ -280,6 +295,10 @@ footer .brand {
     footer {
         flex-direction: column;
         gap: 1.5rem;
+    }
+
+    footer .brand {
+        margin: 0;
     }
 
 }
