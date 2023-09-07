@@ -19,7 +19,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 3fr 3fr 2fr 1fr;
+    grid-template-rows: 100px 3fr 2fr 2fr 1fr;
 }
 
 header,
@@ -139,7 +139,7 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1)
 }
 
 .item-card {
@@ -147,7 +147,6 @@ a:visited {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .item-price {
@@ -163,6 +162,16 @@ a:visited {
 
 .item-card p {
     padding-left: 1rem;
+    margin-top: .2rem;
+}
+
+.pay-opt {
+    font-size: .9rem;
+}
+
+.shipping {
+    font-size: .5rem;
+    color: #619d00;
 }
 
 .stared-items {
@@ -200,7 +209,11 @@ a:visited {
 }
 
 footer {
-    padding: 1rem 0;
+    padding: 1rem 0 0;
+}
+
+footer .brand {
+    margin-left: 2rem;
 }
 
 .social {
@@ -225,6 +238,7 @@ footer {
     text-align: center;
     width: 100%;
     background-color: #c9c9c9;
+    align-self: flex-end;
 }
 
 .fa-twitter {
